@@ -3,7 +3,7 @@ public class GameSettings {
     private String secretCode;
 
     public GameSettings() {
-        this.rounds = 10; // Default value
+        this.rounds = 10;
         this.secretCode = GameFunctions.generatecode();
     }
 
