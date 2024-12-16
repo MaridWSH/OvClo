@@ -4,7 +4,7 @@ public class GameSettings {
 
     public GameSettings() {
         this.rounds = 10; // Default value
-        this.secretCode = GameFunctions.generatecode(); // Generate random by default
+        this.secretCode = GameFunctions.generatecode();
     }
 
     public int getRounds() {
@@ -12,7 +12,7 @@ public class GameSettings {
     }
 
     public void setRounds(int rounds) {
-        this.rounds = (rounds >= 1 && rounds <= 15) ? rounds : 10; // Validation
+        this.rounds = (rounds >= 1 && rounds <= 15) ? rounds : 10;
     }
 
     public String generatecode() {
