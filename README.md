@@ -38,13 +38,22 @@ MasterMind is a code-breaking game where players aim to guess a secret code. The
 
 ---
 MasterMind/
-├── My_Mastermind.java    # Entry point of the program
-├── GameConfigure.java    # Handles game configuration
-├── GameSettings.java     # Stores settings like rounds and secret code
-├── GameLoop.java         # Core game logic
-├── Player.java           # Player-related data
-├── GameAlgorithm.java    # Code-breaking logic (well-placed and misplaced)
-├── GameFunctions.java    # Utility methods (generate code, validate input)
+      
+      ├── My_Mastermind.java      # Entry point of the program
+      
+      ├── GameConfigure.java      # Handles game configuration
+      
+      ├── GameSettings.java       # Stores settings like rounds and secret code
+      
+      ├── GameLoop.java           # Core game logic
+      
+      ├── Player.java             # Player-related data and stats
+      
+      ├── GameAlgorithm.java      # Code-breaking logic (well-placed and misplaced)
+      
+      └── GameFunctions.java      # Utility methods (generate code, validate input)
+
+
 ---
 
 Diagram Explaining the Program's Flow from Start to End
